@@ -120,22 +120,22 @@ nav .btn:focus{
     left: 5px;
     top: 5px;
 }
-
+.upper-banner-btn, 
+.lower-banner-btn{
+    font-size: 13px;
+    font-weight: 500;
+}
 .upper-banner-btn{
     background-color: #579aff;
     border: 1px solid #4093ff;
     border-radius: 4px;
-    font-size: 13px;
     color: white;
-    font-weight: 500;
 }
 .lower-banner-btn{
     background-color: white;
     border: none;
     box-shadow: 2px 2px 10px lightgrey;
-    font-size: 13px;
     color: #868686;
-    font-weight: 500;
 }
 
 
