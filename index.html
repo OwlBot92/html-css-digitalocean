@@ -5,10 +5,111 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+            integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+            integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+            crossorigin="anonymous" />
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
         <title>Document</title>
     </head>
 
     <body>
+
+        <header>
+            <nav>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-4 col-sm-4 col-md-2">
+                            <img src="img/logo.png" alt="" class="logo">
+                        </div>
+                        <div class="hidden-xs hidden-sm col-md-10">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="left-nav">
+                                        <ul>
+                                            <li>
+                                                <a href="">Products</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Customers</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Community</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Pricing</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+            
+                                <div class="col-sm-6">
+                                    <div class="right-nav">
+                                        <ul>
+                                            <li>
+                                                <a href="">Docs</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Support</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Login</a>
+                                            </li>
+                                            <li>
+                                                <button class="btn btn-default">Sign Up</button> <!-- da rivedere se usare custom btn -->
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="col-xs-8 visible-xs visible-sm">
+                            <div class="burger-menu">
+                                <h4 class=".burger"><i class="fas fa-bars"></i></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <section class="jumbo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-7">
+                            <div class="jumbo-content-box-left">
+                                <h1>The Simplest cloud <br> platform for <br> developers & teams</h1>
+                                <p>Deploy, manage and scale cloud applications faster and more efficiently on DigitalOcean. We can make managing infrastructure easy for team and business, whether you're running one virtual machine or the thousand.</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-5">
+                            <div class="jumbo-content-box-right">
+                                <h2>Deploy your app in seconds.</h2>
+                                <h3>Get started now.</h3>
+                                <form action="">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="exampleInputEmail" placeholder="Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" id="exampleInputPassword" placeholder="Password">
+                                    </div>
+                                    <button class="banner_btn upper-banner-btn">Create your account</button>
+                                    <button class="banner_btn lower-banner-btn"> <img src="/img/google-icon.png" alt="google icon"> <span>Sign up with google</span></button>
+                                    <p>By signing up you agree to the <a href="">Terms of Service</a></p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
 
     </body>
 

@@ -1,0 +1,170 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ----- HEADER ----- */ 
+
+/* NAV STYLING */
+.logo{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    min-width: 158px;
+}
+.burger-menu,
+.left-nav,
+.right-nav{
+    text-align: right;
+    
+}
+.left-nav{
+    padding-top: 6px;
+}
+.right-nav{
+    padding-top: 3px;
+}
+nav{
+    padding: 20px 0;
+}
+nav ul{
+    vertical-align: middle;
+}
+nav ul li{
+    margin-left: 15px;
+    display: inline-block;
+    font-weight: 500;
+}
+nav a{
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+}
+nav .btn{
+    border-color: #186dff;
+    color: #186dff;
+    font-weight: 500;
+}
+nav .btn:hover{
+    background-color: #186dff;
+    color: white;
+    outline: none;
+}
+nav .btn:focus{
+    outline-style: none !important;
+}
+.burger-menu{
+    color: #007cfd;
+}
+/* FINE NAV */
+
+/* JUMBOTRON STYLE */
+.jumbo{
+    width: 100%;
+    background-image: url("../img/ms-jumbo.jpg");
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* left content box  */
+.jumbo-content-box-left{
+    color: white;
+}
+.jumbo-content-box-left h1{
+    font-size: 50px;
+}
+.jumbo-content-box-left p{
+    font-size: 20px;
+    color: #c2d3fe;
+}
+
+/* left content box right*/
+.form-group{
+    margin-bottom: 10px;
+}
+.jumbo-content-box-right{
+    border-radius: 5px;
+    padding: 25px 15px;
+    background-color: white;
+    text-align: center;
+}
+.jumbo-content-box-right h2,
+.jumbo-content-box-right h3{
+    font-weight: 600;
+}
+.jumbo-content-box-right h3{
+    color: #007cfd;
+}
+
+.jumbo-content-box-right .banner_btn{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 6px;
+}
+
+.jumbo-content-box-right .lower-banner-btn{
+    position: relative;
+}
+.jumbo-content-box-right img{
+    height: 17px;
+    display: inline-block;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.upper-banner-btn{
+    background-color: #579aff;
+    border: 1px solid #4093ff;
+    border-radius: 4px;
+    font-size: 13px;
+    color: white;
+    font-weight: 500;
+}
+.lower-banner-btn{
+    background-color: white;
+    border: none;
+    box-shadow: 2px 2px 10px lightgrey;
+    font-size: 13px;
+    color: #868686;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
