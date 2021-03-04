@@ -292,7 +292,8 @@ nav .btn:focus{
     color: grey;
 }
 
-/* around section */
+/* around section */ 
+/* ALESSANDRO */
 .around-section{
     background-image: linear-gradient(to bottom, #0a44bb, #001f98);
     color: white;
@@ -315,6 +316,7 @@ nav .btn:focus{
     padding: 7px 0;
 }
 .around-section li:last-child{
+    /* ALESSANDRO */
     /* cosi tanto brutto? */
     float: right;
 }
@@ -332,8 +334,30 @@ nav .btn:focus{
     margin-bottom: 20px;
 }
 
-/* carousel 2 section */
 
+/* carousel 2 section */
+.second-carousel .relative-parent{
+    position: relative;
+    height: 350px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.second-carousel .relative-parent .carousel-box-container{
+    position: absolute;
+    top: 20%;
+}
+.second-carousel .carousel-chevron-left,
+.second-carousel .carousel-chevron-right{
+    padding-top: 170px;
+}
+ .second-carousel .relative-parent img{
+    width: 70%;        
+    margin-bottom: 15px;
+}
+.second-carousel .carousel-box-container p{
+    padding: 0 10px;
+}
 
 
 /* get started section */
@@ -357,9 +381,41 @@ nav .btn:focus{
     font-weight: 600;
 }
 
+
+/* ----- FOOTER ----- */
+footer{
+    background-color: #031c4e;
+    padding: 50px 0;
+}
+.under-logo-content h6:first-child{
+    color: #8b94a9;
+}
+.under-logo-content h6:nth-child(2){
+    color: #5a6887;
+}
+.under-logo-content .fab{
+    color: #8b94a9;
+    margin-top: 10px;
+    font-size: 18px;
+    margin-right: 8px;
+}
+.footer-list ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+.footer-list ul li{
+    margin-bottom: 8px;
+}
+.footer-list ul li a{
+    color: #a6adbd;
+}
+.footer-list h5{
+    color: white;
+    font-size: 17px;
+}
+
+
 /* importante: Sistemare font nelle versioni smartphone del banner */
-
-
 /* gestione ad hoc dei loghi delle aziende */
 @media all and (max-width: 991px) and (min-width: 767px){
     .section-logos-banner img{
@@ -371,6 +427,10 @@ nav .btn:focus{
     .carousel-slide-container{
         width: 75%;
         margin: 60px auto;
+    }
+    .second-carousel .relative-parent{
+        width: 75%;
+        margin:auto;
     }
 }
 
