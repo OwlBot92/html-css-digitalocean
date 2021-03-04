@@ -416,6 +416,77 @@ footer{
     font-size: 17px;
 }
 
+/* fixed chat */
+.fixed-chat-box{
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    width: 360px;
+}
+.shark-logo-chat{
+    background-color: #016aff;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 3px;
+}
+.shark-logo-chat::after{
+    content: "2";
+    padding: 0px 5px;
+    font-weight: 600;
+    color: white;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    background-color: red;
+    border: 3px solid white;
+    border-radius: 50%;
+    position: relative;
+    bottom: 8px;
+    left: 34px;
+}
+.shark-logo-chat img{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.fixed-chat p{
+    font-weight: 500;
+} 
+.fixed-chat {
+    padding: 10px 5px;
+    position: relative;
+    background: #ffffff;
+    color: #00013c;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 8px rgb(46, 46, 46);
+}
+.fixed-chat:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-color: transparent #ffffff;
+    border-width: 6px 0 6px 6px;
+    top: 65%;
+    right: -6px;
+    margin-top: -6px;
+}
+
+
+
 
 /* importante: Sistemare font nelle versioni smartphone del banner */
 /* gestione ad hoc dei loghi delle aziende */
@@ -462,5 +533,39 @@ footer{
 }
 
 
+/* media query per la shark chat */
+@media all and (max-width: 767px){
+    .fixed-chat-box{
+        left: 3%;
+        bottom: 3%;
+    }
+    .shark-logo-chat{
+        top: -60px;
+        left: 3px;
+    }
+    .fixed-chat{
+        box-shadow: 4px -1px 8px rgb(46 46 46)
+    }
+    .fixed-chat::after{
+        content: '';
+        position: absolute;
+        display: block;
+        width: 0;
+        z-index: 1;
+        border-style: solid;
+        border-color: #ffffff transparent;
+        border-width: 0 6px 6px;
+        top: 0px;
+        left: 9%;
+        margin-left: -6px;  
+    }
+
+
+}
+@media all and (max-width: 320px){
+    .fixed-chat{
+        width: 260px;
+    }
+}
 
 /* sistemare in media apposite i chevron del secondo carosello */
