@@ -1,0 +1,154 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", "sans-serif";
+}
+
+/* COMMON */
+.wrapper85{
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1070px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+ul li {
+    display: inline-block;
+}
+.flex-container{
+    display: flex;
+}
+
+/* ----- HEADER ----- */
+
+/* NAV  */
+.nav-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a, 
+nav button,
+nav i{
+    font-size: 14px;
+    color: #00007c;
+}
+nav{
+    padding: 20px 0;
+}
+nav img{
+    width: 170px;
+}
+nav li {
+    margin-left: 10px;
+}
+nav li a{
+    margin-right: 5px;
+    color: #00007c;
+    font-weight: 500;
+}
+nav button{
+    padding: 5px 10px ;
+    font-family: "Inter", "sans-serif";
+    background-color: white;
+    border: 1px solid blue;
+    color: blue;
+    border-radius: 3px;
+    font-weight: 500;
+}
+/* FINE NAV */
+
+
+/* BANNER */
+.banner{
+    background-image: url("../img/ms-jumbo.jpg");
+    /* padding: 100px 0; */
+    background-size: cover;
+    height: 350px;
+    display: flex;
+}
+.banner,
+.banner .flex-container{
+    justify-content:space-between;
+    align-items: center;
+}
+.banner .banner-text-content,
+.banner .banner-login{
+    width: 45%;
+}
+.banner .banner-login{
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px 5px;
+}
+.banner-login h3{
+    color: blue;
+    padding: 8px 0;
+}
+.banner-text-content h1{
+    color: white;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.banner-text-content p{
+    color: lightgrey;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+
+/* form style */
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner form p{
+    font-size: 12px;
+    padding-top: 4px;
+}
+form button,
+.form-group{
+    width: 95%;
+}
+
+.form-group input,
+form button{
+    height: 25px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    border: 1px solid lightgrey;
+}
+.form-group input{
+    width: 100%;
+    padding: 0 4px;
+}
+
+form button{
+    position: relative;
+}
+form button img{
+    width: 16px;    
+    position: absolute;
+    left: 0;
+    margin-left: 4px;
+}
+.upper-banner-btn{
+    background-color: rgb(72, 152, 218);
+    color: white;
+    border: 0;
+}
+.lower-banner-btn{
+    background-color: white;
+    box-shadow: 3px 3px 3px lightgrey;
+    border: 0;
+}
